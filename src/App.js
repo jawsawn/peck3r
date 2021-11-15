@@ -1,25 +1,25 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import Peck from './peck';
 
 function App() {
+
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="mheader">
+        <h1>Pecker</h1>
+      </div>
+      <div className="maincontent">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui impedit necessitatibus, ratione eaque, porro molestias corporis aperiam quo tempora recusandae optio tenetur error? Nesciunt incidunt voluptate minus dolor a quaerat?</p>
+      </div>
+        
+      <Peck />
+      <Peck />
+      
     </div>
   );
 }
 
 export default App;
+
