@@ -1,22 +1,40 @@
 import React from 'react';
 import './App.css';
-import Peck from './peck';
+import Peck from './fnc/peck';
 
 function App() {
 
 
   return (
     <div className="App">
-      <div className="mheader">
+      <div className="menutop">
         <h1>Pecker</h1>
       </div>
-      <div className="maincontent">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui impedit necessitatibus, ratione eaque, porro molestias corporis aperiam quo tempora recusandae optio tenetur error? Nesciunt incidunt voluptate minus dolor a quaerat?</p>
+      <div className="invdiv"></div>
+      <div className="menuleft">
+
       </div>
+      <div className="menuright">
         
-      <Peck />
-      <Peck />
-      
+      </div>
+      <div className="pecks">
+        <Peck />
+        <Peck />
+        <Peck />
+        <Peck />
+        <Peck />
+        <Peck />
+        <Peck />
+        <Peck />
+        <Peck />
+        <Peck />
+        <Peck />
+        <Peck />
+        <Peck />
+        <Peck />
+        <Peck />
+      </div>
+
     </div>
   );
 }
